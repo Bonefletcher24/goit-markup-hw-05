@@ -129,6 +129,17 @@ div .list{
     letter-spacing: 0.4px; 
 }
 
+.main-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-list > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 
