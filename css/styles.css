@@ -78,6 +78,10 @@ font-family: 'Roboto', sans-serif;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    background-image: url(../images/people-office-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
 }   
 
 .order-button{
@@ -129,6 +133,45 @@ div .list{
     letter-spacing: 0.4px; 
 }
 
+.about-icon{
+    background-color: var(--CLOUD);
+    width: 264px;
+    height: 80px;
+    text-align: center;
+    padding: 24px 0; 
+}
+
+.team-socials{
+    display: flex;
+    justify-content: space-around;
+    padding: 36px;
+}
+
+.team-socials-icon{
+background-color: var(--IRIS);
+color: var(--WHITE);
+border-radius: 50%;
+fill: white;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.team img{
+display: block;
+}
+
+.team-bg li{
+    background-color: var(--CLOUD);
+}
+
+.team-captions {
+text-align: center;
+}
+
 .main-list {
     display: flex;
     flex-direction: row;
@@ -140,7 +183,9 @@ div .list{
     align-items: center;
 }
 
-
+.team-list{
+text-align: center;
+}
 
 
 .main-list p{
@@ -164,6 +209,7 @@ letter-spacing: 0.72px;
 text-transform: capitalize; 
 padding: 120px 558px 72px 559px;
 }
+
 
 
 .list h3{
@@ -191,8 +237,42 @@ button {
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
 
+}
+
+.customers-h2{
+color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize; 
+padding: 120px 558px 72px 559px;
+}
+
+.customer-icon{
+border: 1px solid #8E8F99;
+border-radius: 4px; 
+flex-shrink: 0;
+text-align: center;    
+padding: 16px 32px;
+margin-bottom: 120px;
+}
+
+.customer-icon svg{
+    fill: #8E8F99;
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+    border-color: var(--IRIS);
+}
+
+.customer-icon svg:hover,
+.customer-icon svg:focus{
+    fill: var(--IRIS);
 }
 
 
@@ -210,7 +290,6 @@ footer .logo {
     line-height: 24px;
     letter-spacing: 0.32px; 
     padding: 140px 1020px 100px 185px;
-
 }
 
 
