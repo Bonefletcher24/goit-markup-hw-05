@@ -74,28 +74,27 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hero-color {
-    background: var(--NAVY-BLUE);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/people-office-1.jpg);; 
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    background-image: url(../images/people-office-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
   
 }   
 
 .order-button{
     color: var(--WHITE);
     background: var(--IRIS);
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.64px; 
     border-radius: 4px; 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
     padding: 16px 32px;
+    border: none;
     
 }
 
@@ -290,6 +289,10 @@ footer .logo {
     line-height: 24px;
     letter-spacing: 0.32px; 
     padding: 140px 1020px 100px 185px;
+}
+
+.footer-color p svg{
+    display: flex;
 }
 
 
