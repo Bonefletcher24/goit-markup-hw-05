@@ -291,10 +291,23 @@ footer .logo {
     padding: 140px 1020px 100px 185px;
 }
 
-.footer-color p svg{
+.footer-icons{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 16px;
+    
 }
 
+.footer-socials{
+color: rgba(255, 255, 255, 1);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
 
 /* PORTFOLIO */
 .all-buttons {
