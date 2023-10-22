@@ -144,6 +144,7 @@ div .list{
     display: flex;
     justify-content: space-around;
     padding: 36px;
+
 }
 
 .team-socials-icon{
@@ -278,7 +279,7 @@ margin-bottom: 120px;
 /* FOOTER WEBSTUDIO */
 footer .logo {
     color: var(--CLOUD);
-    padding: 0px;yyyyyyyyyyy
+    padding: 0px;
 }
 
 .footer-color {
@@ -297,7 +298,6 @@ footer .logo {
     justify-content: center;
     list-style: none;
     gap: 16px;
-    
 }
 
 .footer-socials{
