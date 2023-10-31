@@ -61,11 +61,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 .active {
-    color: var(--OCEAN)
+    color: var(--OCEAN);
 }
 
 .active::after{
-    content:" ";
+content:" ";
 display: block;
 height: 4px;
 width: 100%;
@@ -73,6 +73,7 @@ border-radius: 2px;
 background-color: var(--IRIS);
 position: relative;
 top: 15px;
+
 }
 
 
@@ -162,6 +163,7 @@ top: 15px;
 }
 
 
+
 .list{
     list-style: none;
     padding-left: 0;
@@ -184,6 +186,8 @@ div .list{
 {
     text-decoration:none;
     color: var(--IRIS);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-list {
