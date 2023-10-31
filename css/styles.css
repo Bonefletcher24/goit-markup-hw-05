@@ -64,7 +64,7 @@ font-family: 'Roboto', sans-serif;
     color: var(--OCEAN);
 }
 
-.active::after{
+/* .active::after{
 content:" ";
 display: block;
 height: 4px;
@@ -73,8 +73,27 @@ border-radius: 2px;
 background-color: var(--IRIS);
 position: relative;
 top: 15px;
+} */
 
+
+header ul a:hover,
+header ul a:focus {
+  color: var(--IRIS);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px;
+    height: 4px;
+    width: 100%;
+    top: 0px;
+    position: relative;
 }
+
+header nav a:hover,
+header nav a:focus {
+  padding-bottom: 13px;
+  border-bottom: 4px solid var(--IRIS);
+}
+
 
 
 /* EFFECTIVE SOLUTION */
